@@ -1,0 +1,205 @@
+.header {
+  background: url("../images/bg-header-desktop.png") center top no-repeat;
+  height: 100vh; }
+  .header-content {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin-top: 7rem; }
+  .header-logo {
+    display: block;
+    margin-bottom: 4rem; }
+  .header-title {
+    margin-bottom: 1rem;
+    color: #4c545d;
+    font-size: 2.5rem; }
+  .header-lead {
+    margin-bottom: 2.5rem;
+    color: #9fabb2; }
+
+.main-title {
+  color: #4c545d;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 2.2rem; }
+
+.main-desc {
+  max-width: 850px;
+  margin: 0 auto 3rem;
+  text-align: center;
+  color: #9fabb2; }
+
+.main-photo {
+  width: 100%;
+  display: block; }
+
+.main-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 2rem; }
+
+.main-info {
+  align-self: center; }
+
+.main-card {
+  margin-bottom: 2.5rem;
+  padding-left: 2rem; }
+
+.main-sub {
+  color: #4c545d;
+  margin-bottom: 1.5rem; }
+
+.main-sup {
+  color: #9fabb2; }
+
+.mainb-title {
+  color: #4c545d;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 2.2rem;
+  margin-top: 7rem; }
+
+.mainb-desc {
+  max-width: 850px;
+  margin: 0 auto 3rem;
+  text-align: center;
+  color: #9fabb2; }
+
+.mainb-device {
+  width: 80%;
+  display: block;
+  margin: 2rem auto; }
+
+.mainc-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+  margin-top: 4rem; }
+
+.mainc-img {
+  margin-bottom: 1rem; }
+
+.mainc-sup {
+  color: #4c545d;
+  padding-bottom: 1rem; }
+
+.mainc-sub {
+  color: #9fabb2;
+  margin-bottom: 3rem; }
+
+.maind-content {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 3rem; }
+
+.maind-img {
+  width: 100%;
+  display: block;
+  margin: 4rem 0; }
+
+.maine {
+  display: grid;
+  place-items: center;
+  margin: 5rem auto; }
+
+.footer {
+  background: #f1eeee; }
+  .footer-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr 1fr;
+    margin: 3rem 0 0;
+    padding-bottom: 2rem;
+    column-gap: 2rem;
+    color: #4c545d; }
+  .footer-logo {
+    width: 50px; }
+  .footer-link {
+    padding-bottom: 1rem;
+    display: block;
+    transition: all 350ms ease; }
+    .footer-link:hover {
+      color: #26baa4; }
+  .footer i {
+    margin-left: 1rem;
+    transition: all 350ms ease;
+    font-size: 1.4rem; }
+    .footer i:hover {
+      color: #26baa4; }
+
+@media (max-width: 800px) {
+  .header {
+    background: url("../images/bg-header-mobile.png") center/cover no-repeat; }
+  .main-content {
+    grid-template-columns: 1fr;
+    text-align: center; }
+  .main-info {
+    margin-top: 3rem; }
+  .mainb-device {
+    width: 100%; }
+  .mainc-cards {
+    grid-template-columns: 1fr; }
+  .maind-content {
+    grid-template-columns: 1fr; }
+  .maind-img {
+    width: 70%;
+    display: block;
+    margin: 3rem auto; }
+  .maine-button {
+    margin: 1rem auto;
+    text-align: center; }
+  .footer-items {
+    grid-template-columns: 1fr;
+    text-align: center; }
+  .footer-logo, .footer-link {
+    margin: 1rem 0; }
+  .footer i {
+    font-size: 2rem; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #fff;
+  font-size: 18px;
+  font-family: "Bai Jamjuree", sans-serif; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+ul {
+  list-style: none; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 1rem 2rem 0; }
+
+.btn {
+  padding: 1rem 3rem;
+  border-radius: 40px;
+  border: none;
+  margin-left: 1rem;
+  cursor: pointer;
+  color: #fff;
+  transition: opacity 350ms linear; }
+  .btn:hover {
+    opacity: 0.8; }
+  .btn:focus {
+    outline: none; }
+  .btn-primary {
+    background: #26baa4;
+    box-shadow: 0 3px 2px #26baa4;
+    margin-bottom: 1rem; }
+  .btn-secondary {
+    background: #6173ff;
+    box-shadow: 0 3px 2px #6173ff; }
+
+@media (max-width: 800px) {
+  .btn {
+    width: 90%; } }

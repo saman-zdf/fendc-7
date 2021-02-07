@@ -1,0 +1,14 @@
+{
+  "name": "frontend-7",
+  "version": "1.0.0",
+  "description": "testing-7",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recurcive"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

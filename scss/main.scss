@@ -1,0 +1,58 @@
+@import "header";
+@import "config";
+@import "home";
+@import "footer";
+@import "mobile";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #fff;
+  font-size: 18px;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+ul {
+  list-style: none;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 1rem 2rem 0;
+}
+// utilities
+.btn {
+  padding: 1rem 3rem;
+  border-radius: 40px;
+  border: none;
+  margin-left: 1rem;
+  cursor: pointer;
+  color: #fff;
+  transition: opacity 350ms linear;
+  &:hover {
+    opacity: 0.8;
+  }
+  &:focus {
+    outline: none;
+  }
+  &-primary {
+    background: $Strong-Cyan;
+    box-shadow: 0 3px 2px $Strong-Cyan;
+    margin-bottom: 1rem;
+  }
+  &-secondary {
+    background: $Light-Blue;
+    box-shadow: 0 3px 2px $Light-Blue;
+  }
+}
+@media (max-width: 800px) {
+  .btn {
+    width: 90%;
+  }
+}
+// header

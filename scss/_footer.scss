@@ -1,0 +1,30 @@
+.footer {
+  background: rgb(241, 238, 238);
+  &-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr 1fr;
+    margin: 3rem 0 0;
+    padding-bottom: 2rem;
+    column-gap: 2rem;
+    color: $Dark-Grayish-Blue;
+  }
+  &-logo {
+    width: 50px;
+  }
+  &-link {
+    padding-bottom: 1rem;
+    display: block;
+    transition: all 350ms ease;
+    &:hover {
+      color: $Strong-Cyan;
+    }
+  }
+  i {
+    margin-left: 1rem;
+    transition: all 350ms ease;
+    font-size: 1.4rem;
+    &:hover {
+      color: $Strong-Cyan;
+    }
+  }
+}

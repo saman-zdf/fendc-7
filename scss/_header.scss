@@ -1,0 +1,23 @@
+.header {
+  background: url("../images/bg-header-desktop.png") center top no-repeat;
+  height: 100vh;
+  &-content {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin-top: 7rem;
+  }
+  &-logo {
+    display: block;
+    margin-bottom: 4rem;
+  }
+  &-title {
+    margin-bottom: 1rem;
+    color: hsl(210, 10%, 33%);
+    font-size: 2.5rem;
+  }
+  &-lead {
+    margin-bottom: 2.5rem;
+    color: hsl(201, 11%, 66%);
+  }
+}
